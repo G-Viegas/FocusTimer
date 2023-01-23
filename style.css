@@ -1,0 +1,76 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  min-height: 100vh;
+  display: grid;
+ 
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19.2rem;
+  margin: auto;
+}
+
+#timer{
+  display: flex;
+  max-width: 33rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 12.16rem;
+  line-height: 14.8rem;
+  margin-bottom: 4rem;
+
+  
+}
+
+#controls {
+  display: flex;
+  gap: 4.0rem;
+  
+}
+
+#cards{
+  display: grid;
+  grid-template-columns: 13.8rem 13.8rem;
+  gap: 3.2rem;
+ 
+}
+
+#cards button{
+  min-height: 15.2rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+#controls button{
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.hide{
+  min-height: 15.2rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  background-color: #02799D;
+}
+#controls button.hide {
+  display: none;
+}
+.hide svg path {
+  fill: #ffff;
+}
+
